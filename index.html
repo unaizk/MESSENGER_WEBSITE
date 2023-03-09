@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>messenger.com</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/193ace32a1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            
+            <a class="navbar-brand" href="#">
+                <img class="icon" src="./icon.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-text" href="https://www.messenger.com/features" class="_4vo5">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-text" href="https://www.messenger.com/desktop" class="_4vo5">Desktop app</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-text" href="https://www.messenger.com/privacy" class="_4vo5">Privacy and safety</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-text" href="https://www.messenger.com/privacy" class="_4vo5">For Devolopers</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+    
+        </nav>
+    </header>
+    
+        <section class="middle-container">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-6 col-12">
+                        <h1 class="middle-text">Hang out <br> anytime, anywhere</h1>
+                        <p class="text">Messenger makes it easy and fun to stay close to your favourite people</p>
+                        <form class="form-" id="submit-form"  action="">
+                            <div class="form-group">
+                              
+                              <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email address" id="exampleInputEmail1" onkeyup="validateEmail()">
+                              <span id="email-error"></span>
+                             
+                            </div>
+                            <div class="form-group">
+                             
+                              <input type="password" class="form-control" placeholder="Password"  id="exampleInputPassword1" onkeyup="validatePass()">
+                              <span id="pass-error"></span>
+                            </div>
+                            <div>
+                           
+                            <button type="submit" class="btnn btn-primary" onclick="return validateForm()">Log in </button>
+                            <a class="forgott" href="https://facebook.com/recover/initiate/?ref=www_reauth_page">Forgotten your password?</a>
+                            <div>
+                                <input type="checkbox" class="check">
+                                <label class="check-text" for="">Keep me signed in</label>
+                            </div>
+                            </div>
+                          </form>
+                          <div>
+                            <a href="https://apps.apple.com/us/app/messenger/id1480068668?mt=12" target="_blank">
+                                <img class="apple" src="./images/googleplay.svg" alt="">
+                            </a>
+                            <a href="https://www.microsoft.com/en-us/p/messenger/9wzdncrf0083?activetab=pivot:overviewtab" target="_blank">
+                              <img class="microsoft" src="./images/microsoft.png" alt="">
+                            </a>
+                          </div>
+                    </div>
+                    <div class="col-lg-6 col-12 images">
+                     <img class="img" src="./images/middle image.png" alt="">
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row foot-head">
+                    <div class="col-md-6 foot-start">
+                            <span class="copy"> © Meta&nbsp;2023. </span>
+                            <span class="foot-text"> The Apple and Google Play logos are trademarks of their respective owners. </span>
+                    </div>
+                    
+                    <div class="col-md-6 foot-right">
+                            <a class="foot-right-text" href="https://www.facebook.com/privacy/policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                            <a class="foot-right-text" href="https://messenger.com/policy/cookies" target="_blank" rel="noopener noreferrer">Cookie Policy</a>
+                            <a class="foot-right-text" href="https://www.facebook.com/policies/?ref=pf" target="_blank" rel="noopener noreferrer">Terms</a>
+                      
+                       <select name="foot-lang" id="lang">
+                        <option value="">
+                            English(UK)
+                        </option>
+                        <option value="">Hindi</option>
+                        <option value="">French</option>
+                        <option value="">Spanish</option>
+                       </select>
+                        
+                        <img class="foot-img" src="./images/meta.png" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>

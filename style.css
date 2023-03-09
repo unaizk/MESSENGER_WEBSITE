@@ -1,0 +1,174 @@
+header{
+    width: 100%;
+    
+    position: fixed;
+    z-index: 1;
+   background-color: white;
+
+
+
+}
+.icon{
+
+    width: 2.5rem;
+    padding-top: 1rem;
+    margin-left: -1rem;
+    
+   
+}
+
+.nav-text{
+    color: rgb(0,0,0);
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 3rem;
+    text-decoration: none;
+    padding: 1rem;
+}
+.nav-text:hover{
+    text-decoration: underline;
+}
+.middle-text{
+    width: 23rem;
+    margin-top: 9rem;
+    font-size: 4.4rem;
+    height: 17rem;
+    font-weight: 600;
+   background: linear-gradient(81.84deg, #0099ff -9.4%, #a033ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
+   -webkit-background-clip: text;
+   color: transparent;
+   display: inline-block;
+  
+}
+
+.img{
+    width: 39rem;
+    margin-top: 9.5rem;
+    padding-right: 3rem;
+    margin-left: -2rem;
+}
+
+
+
+.navbar-expand-lg .navbar-collapse {
+    margin-top: 1.2em;
+}
+.text{
+    width: 24rem;
+    color: rgb(33,37,41);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.btnn{
+    border-radius: 3rem;
+    padding: 0.5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    border: none;
+    margin-top: 1rem;
+    
+}
+.form- {
+    margin-top: 2rem;
+}
+.forgott{
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 0.5rem;
+    text-decoration: underline;
+    
+
+}
+
+#exampleInputEmail1{
+    background-color: rgb(233, 233, 233);
+    width: 18rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+#exampleInputPassword1{
+    background-color: rgb(233, 233, 233);
+    width: 18rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.check-text{
+    margin-top: 2rem;
+    padding: 0.1rem;
+    color: rgb(132, 132, 132);
+    font-size: 0.8rem;
+}
+.check{
+    border-color: 0.5px solid rgb(149, 149, 149);
+    margin-top: 0.5rem;
+}
+.btn-primary{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+@media(max-width:800px){
+    .img{
+        width: 31.2rem;
+
+    }
+}
+.apple{
+    width: 8rem;
+    margin-left: -0.3rem;
+    margin-top: 1rem;
+}
+.microsoft{
+    width: 7.5rem;
+    margin-left: -0.3rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.foot-img{
+    width: 10rem;
+}
+.copy{
+ font-size: 0.8rem;
+ font-weight: 700;
+}
+.foot-right{
+    font-size: 0.8rem;
+    align-self: center;
+    text-align: center;
+   
+
+}
+.foot-right-text{
+    font-size: 0.8rem;
+    padding: 0.8rem;
+    color: black;
+}
+.foot-text{
+    font-size: 0.8rem;
+}
+.foot-head{
+    margin-top: 9rem;
+    text-align: center;
+}
+.foot-start{
+    align-self: center;
+}
+#lang{
+    border: none;
+}
+.form-group span{
+    
+    bottom: 12px;
+    right: 17px;
+    font-size: 14px;
+    color: red;
+}
+.form-group span i{
+    color: seagreen;
+}
